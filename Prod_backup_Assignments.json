@@ -1,0 +1,31 @@
+{
+	"Meta": {
+		"Page": 1,
+		"PageSize": 20,
+		"TotalCount": 4,
+		"TotalPages": 1,
+		"ItemRange": [
+			1,
+			4
+		],
+		"NextPageKey": null
+	},
+	"Items": [
+		{
+			"CatalogID": "Default_LaurelSprings_Catalog",
+			"ProductID": "10623"
+		},
+		{
+			"CatalogID": "Default_LaurelSprings_Catalog",
+			"ProductID": "11431"
+		},
+		{
+			"CatalogID": "Default_LaurelSprings_Catalog",
+			"ProductID": "11451"
+		},
+		{
+			"CatalogID": "Default_LaurelSprings_Catalog",
+			"ProductID": "Application_Fee"
+		}
+	]
+}

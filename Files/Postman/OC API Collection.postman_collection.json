@@ -1,0 +1,72 @@
+{
+	"info": {
+		"_postman_id": "a62c6305-7c8e-47eb-97b6-71dd6b95a31d",
+		"name": "OC API Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14868886"
+	},
+	"item": [
+		{
+			"name": "Seed",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"PortalUsername\":\"xc_amitpatel\",\r\n    \"PortalPassword\":\"xcentium123\",\r\n    \"MiddlewareBaseUrl\":\"https://mymiddlewaresite.net/\",\r\n    \"OrderCloudSettings\":{\r\n        \"Environment\":\"sandbox\",\r\n        \"WebhookHashKey\":\"oc2023\"\r\n    },\r\n    \"MarketplaceName\":\"OC Test Marketplace\",\r\n    \"EnableAnonymousShopping\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{BaseUrl}}/seed",
+					"host": [
+						"{{BaseUrl}}"
+					],
+					"path": [
+						"seed"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "{{bearertoken}}",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "bearertoken",
+			"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IndHc0JzNEpTZTB5bGY3UlJzOE9tQ3cifQ.eyJ1c3IiOiJkZWZhdWx0X2J1eWVyX3VzZXIiLCJjaWQiOiIxOTRmZTNlMS0zYWRlLTRkODktOWVkYi04OTA3ZTU2MjljZWMiLCJvcmRlcmlkIjoiMjlrc2hiYWVXVXVyRm5JUmpEOFFWUSIsInUiOiI3MDA2MDkyIiwidXNydHlwZSI6ImJ1eWVyIiwibmJmIjoxNjc5NTIyODY0LCJleHAiOjE2ODAxMjgyNjQsImlzcyI6Imh0dHBzOi8vc2FuZGJveGF1dGgub3JkZXJjbG91ZC5pbyIsImF1ZCI6Imh0dHBzOi8vc2FuZGJveGFwaS5vcmRlcmNsb3VkLmlvIn0.zwHFMGVahFInSA_yfXoHe-ByksX8lRQ9uxLkH2dqxh0URZ4jhSCY8uR2Ze4m_bPU62_0AGvNDf7AEvfZb9Uh-0agC5fRKSGmBOxogirfBL9PMc5r1jUCxjTsAFr4FCN8mxp5_8AArPz6z6HEBGfDoMuvuT_LjgdQu-rfvwU1ihis0hND34pq_2DUUzSlNRhPhvyo8AkBWhaOEntTBN8xyB6tP268wvVYjXGCjqtUz44VNrpfvz5fiLNOLLkbMFrohI3LOYAwyLIBYvtYvMQw3AECP5FT9jWDSkLJS7uFuZNABCZMXcNO2zUsDG6BMm-GpWKv7keQFHgkmG6-UFUj1w"
+		}
+	]
+}

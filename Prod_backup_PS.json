@@ -1,0 +1,107 @@
+{
+	"Meta": {
+		"Page": 1,
+		"PageSize": 20,
+		"TotalCount": 4,
+		"TotalPages": 1,
+		"ItemRange": [
+			1,
+			4
+		],
+		"NextPageKey": null
+	},
+	"Items": [
+		{
+			"OwnerID": "LaurelSpringsSchool",
+			"ID": "Application_Fee_PS",
+			"Name": "Application Fee Price Schedule",
+			"ApplyTax": false,
+			"ApplyShipping": false,
+			"MinQuantity": 1,
+			"MaxQuantity": null,
+			"UseCumulativeQuantity": false,
+			"RestrictedQuantity": false,
+			"PriceBreaks": [
+				{
+					"Quantity": 1,
+					"Price": 150,
+					"SalePrice": null
+				}
+			],
+			"Currency": null,
+			"SaleStart": null,
+			"SaleEnd": null,
+			"IsOnSale": false,
+			"xp": null
+		},
+		{
+			"OwnerID": "LaurelSpringsSchool",
+			"ID": "11431_PS",
+			"Name": "MS Coding 1A Price Schedule",
+			"ApplyTax": false,
+			"ApplyShipping": false,
+			"MinQuantity": 1,
+			"MaxQuantity": null,
+			"UseCumulativeQuantity": false,
+			"RestrictedQuantity": false,
+			"PriceBreaks": [
+				{
+					"Quantity": 1,
+					"Price": 800,
+					"SalePrice": null
+				}
+			],
+			"Currency": null,
+			"SaleStart": null,
+			"SaleEnd": null,
+			"IsOnSale": false,
+			"xp": null
+		},
+		{
+			"OwnerID": "LaurelSpringsSchool",
+			"ID": "11451_PS",
+			"Name": "MS Game Design Price Schedule",
+			"ApplyTax": false,
+			"ApplyShipping": false,
+			"MinQuantity": 1,
+			"MaxQuantity": null,
+			"UseCumulativeQuantity": false,
+			"RestrictedQuantity": false,
+			"PriceBreaks": [
+				{
+					"Quantity": 1,
+					"Price": 800,
+					"SalePrice": null
+				}
+			],
+			"Currency": null,
+			"SaleStart": null,
+			"SaleEnd": null,
+			"IsOnSale": false,
+			"xp": null
+		},
+		{
+			"OwnerID": "LaurelSpringsSchool",
+			"ID": "10623_PS",
+			"Name": "MS Journalism Price Schedule",
+			"ApplyTax": false,
+			"ApplyShipping": false,
+			"MinQuantity": 1,
+			"MaxQuantity": null,
+			"UseCumulativeQuantity": false,
+			"RestrictedQuantity": false,
+			"PriceBreaks": [
+				{
+					"Quantity": 1,
+					"Price": 800,
+					"SalePrice": null
+				}
+			],
+			"Currency": null,
+			"SaleStart": null,
+			"SaleEnd": null,
+			"IsOnSale": false,
+			"xp": null
+		}
+	]
+}
