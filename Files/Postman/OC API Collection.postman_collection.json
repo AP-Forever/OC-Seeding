@@ -13,7 +13,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"PortalUsername\":\"xc_amitpatel\",\r\n    \"PortalPassword\":\"xcentium123\",\r\n    \"MiddlewareBaseUrl\":\"https://mymiddlewaresite.net/\",\r\n    \"OrderCloudSettings\":{\r\n        \"Environment\":\"sandbox\",\r\n        \"WebhookHashKey\":\"oc2023\"\r\n    },\r\n    \"MarketplaceName\":\"OC Test Marketplace\",\r\n    \"EnableAnonymousShopping\": true\r\n}",
+					"raw": "{\r\n    \"PortalUsername\":\"\",\r\n    \"PortalPassword\":\"\",\r\n    \"MiddlewareBaseUrl\":\"https://mymiddlewaresite.net/\",\r\n    \"OrderCloudSettings\":{\r\n        \"Environment\":\"sandbox\",\r\n        \"WebhookHashKey\":\"oc2023\"\r\n    },\r\n    \"MarketplaceID\":\"\",\r\n    \"MarketplaceName\":\"OC Test Marketplace\",\r\n    \"EnableAnonymousShopping\": true\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
